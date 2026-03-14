@@ -37,8 +37,8 @@
 
 ```text
 Medical_Rag/
-├── medical_agent_pro.py       # LangGraph 核心智能体逻辑与多轮对话入口
-├── medical_rag_v2.py          # 底层 RAG 流水线 (检索、精排、融合)
+├── medical_agent_muti_dialogue_rag.py       # LangGraph 核心智能体逻辑与多轮对话入口
+├── medical_rag_v2_Langsmith.py          # 底层 RAG 流水线 (检索、精排、融合)
 ├── medical_server.py          # FastAPI 异步流式服务端接口
 ├── models.py                  # Pydantic 数据协议校验模型
 ├── sparse.py                  # 基于 pkuseg 的 BM25 词频计算与分词逻辑
