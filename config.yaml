@@ -1,0 +1,10 @@
+# 管理 Milvus 的连接信息和 BGE-M3 模型的路径
+# Milvus 连接配置
+milvus:
+  uri: "http://localhost:19530"
+  collection_name: "my_medical_knowledge"
+
+# 模型配置
+embedding:
+  model_path: "/home/kdyy/project/FastAPI/rag_bge_milvus/bge-large-zh-v1.5"  # 你下载的模型文件夹路径
+  dimension: 1024                 # BGE-Large 的维度是 1024
