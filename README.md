@@ -1,4 +1,4 @@
-# 🏥 Med-Agent RAG: 工业级医疗知识图谱问答智能体
+# 🏥 Meddical-Agent RAG: 工业级医疗知识图谱问答智能体
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic_Workflow-orange.svg)
